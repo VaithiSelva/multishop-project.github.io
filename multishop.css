@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+}
+body{
+    background-color: rgb(241, 240, 240);
+}
+.fristset{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 3px;
+    background-color: rgb(239, 239, 239);
+}
+.fristset .container1{
+    padding-left: 30px;
+}
+.fristset .container1 ul li{
+    list-style: none;
+    padding: 5px 20px 0px 40px;
+}
+.fristset .container1 ul li a{
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    
+}
+.fristset .container1 ul{
+    display: flex;
+    margin-bottom: 0;
+}
+.fristset .container2{
+    text-align: right;
+    padding-right: 60px;
+}
+.fristset .container2 select{
+    padding: 3px;
+    border: none;
+}
+.fristset .container2 select{
+    margin-left: 20px;    
+}
+.secondset{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.secondset .container1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.secondset .container1 .child1{
+    text-align: center;
+    padding: 5px;
+    color: black;
+    background-color: rgb(247, 191, 38);
+    
+}
+.secondset .container1 .child2{
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+}
+.secondset .container1 .child1 button{
+    border: none;
+    background-color: unset;
+    font-size: 30px;
+}
+.secondset .container1 .child2 button{
+    border: none;
+    background-color: unset;
+    color:  rgb(247, 191, 38);
+    font-size: 30px;
+}
+.secondset .container2{
+    text-align: center;
+    align-self: center;
+}
+.secondset .container2 .child1{
+    border: 2px solid rgb(130, 130, 130);
+    width: 100%;
+    margin: auto;
+    padding-right: 10px;
+    
+}
+.secondset .container2 .child1 input{
+    padding: 5px;
+    width: 310px;
+    border: none;
+    background-color: unset;
+    border-right: 2px solid rgb(130, 130, 130);
+}
+.secondset .container2 .child1 input:focus{
+    border: none;
+}
+.secondset .container2 .child1 button{
+    background-color: unset;
+    border: none;
+    padding-left:6px ;
+    color: rgb(247, 191, 38);
+}
+.secondset .container3{
+    text-align: right;
+    padding-right: 50px;
+    align-self: center;
+}
+.secondset .container3 h4,p{
+    margin: 0;
+}
+.secondset .container3 h4{
+    font-weight: bold;
+}
+.secondset .container3 p{
+    color:  rgb(130, 130, 130);
+}
+.thirdset{
+    display: grid;
+    grid-template-columns: 30% 56% 4%;
+    /* border: 1px solid black; */
+    background-color:rgb(41, 41, 41) ;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+.thirdset .container1{
+    padding-left: 90px;
+}
+.thirdset .container1 select{
+    width: 277px;
+    border: none;
+    background-color: rgb(247, 191, 38);
+    height: 65px;
+    text-align: center;
+    font-size: 20px;
+}
+.thirdset .container1 select option{
+    background-color: white;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.thirdset .containerr2{
+    text-align: left;
+    align-self: center;
+
+}
+.thirdset .containerr2 a{
+    text-decoration: none;
+    padding-right: 30px;
+    color: rgb(204, 202, 202);
+    font-size: 16px;
+}
+.thirdset .containerr2 a:hover{
+    color: rgb(247, 191, 38);
+}
+.thirdset .containerr2 select{
+    border: none;
+    margin-right: 30px;
+    background-color: unset;
+    color: rgb(204, 202, 202);
+}
+.thirdset .containerr2 select:hover{
+    color: rgb(247, 191, 38);
+}
+.thirdset .container3{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+.thirdset .container3 a{
+    padding-left:20px ;
+    color: rgb(247, 191, 38);
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 5px;
+}
+.thirdset .container3 p{
+    padding: 7px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 1px solid rgb(204, 202, 202);
+    border-radius: 50%;
+    color: rgb(204, 202, 202);
+}
+.fourthset {
+    width: 100%;
+    margin: auto;
+    padding: 60px;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+    display: grid;
+    grid-template-columns: 65% 30%;
+    /* border: 2px solid black; */
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.fourthset .container1 img{
+   width: 100%;
+   height: 100%;
+}
+.fourthset .container2 img{
+    width: 100%;
+    height: 100%;
+}
+.fourthset .container3 img{
+    width: 100%;
+    height: 100%;
+}
+/* .fourthset .container4 img{
+    width: 100%;
+    height: 100%; */
+
+.fourthset .container1{
+    /* border: 1px solid black; */
+    height: 100%;
+    grid-row: span 2;
+    position: relative;
+   
+}
+.fourthset .container2{
+    /* border: 1px solid black; */
+    height: 100%;
+    position: relative;
+}
+.fourthset .container3{
+    /* border: 1px solid black; */
+    height: 100%;
+    position: relative;
+}
+/* .fourthset .container4{
+    border: 1px solid black;
+    height: 180px
+
+} */
+.fourthset .container1 .set1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.fourthset .container1 .set1 h1{
+    color: white;
+    font-size: 90px;
+}
+.fourthset .container1 .set1 p{
+    color: white;
+
+}
+.fourthset .container1 .set1 button{
+    background-color: unset;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+}
+.fourthset .container2 .set2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+   
+}
+.fourthset .container2 .set2 h3{
+    color: white;
+    
+}
+.fourthset .container2 .set2 p{
+    color: white;
+
+}
+.fourthset .container2 .set2 button{
+    background-color:unset;
+    padding: 5px;
+    border: none;
+    color:white;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.fourthset .container3 .set3{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+   
+}
+.fourthset .container3 .set3 h3{
+    color: white;
+    
+}
+.fourthset .container3 .set3 p{
+    color: white;
+
+}
+.fourthset .container3 .set3 button{
+    background-color:unset;
+    padding: 5px;
+    border: none;
+    color:white;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.fourthset .container3 .set3 button:hover{
+    background-color: white;
+    color: black;
+}
+.fourthset .container2 .set2 button:hover{
+    background-color: white;
+    color: black;
+}
+.fourthset .container1 .set1 button:hover{
+    background-color: white;
+    color: black;
+}
+.fivethset {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom:100px ;
+}
+.fivethset .child{
+    padding: 25px;
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.fivethset .child span{
+    color: rgb(247, 191, 38);
+    font-size: 30px;
+    padding-left: 10px;
+}
+.fivethset .child p{
+    font-size: 25px;
+}
+.sixthset{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: space-evenly;
+    row-gap: 45px;
+    margin-bottom: 100px;
+}
+.sixthset .set{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* text-align: right; */
+    align-items: center;
+    background-color: white;
+    border-radius: 2px;
+}
+.sixthset .set .set1 img{
+    width: 100%;
+}
+.sixthset .set .set2{
+    padding-left: 15px;
+    background-color: white;
+}
+.sixthset .set .set2 h5{
+    font-weight: bold;
+    font-size: 15px;
+}
+.sixthset .set .set2 p{
+    font-size: 13px;
+    color: rgb(130, 130, 130);
+}
+.sixthset .set .set2 a{
+    color: rgb(130, 130, 130);
+    font-size: 11px;
+    padding-left: 90px;
+}
+.heading{
+    color: rgb(130, 130, 130);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.seventhset{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    row-gap: 40px;
+}
+.seventhset .set1 .img img{
+    width: 100%;  
+    transition: 0.2s ease-out; 
+}
+
+.seventhset .set1{
+    text-align: center;
+    background-color: white;
+   padding: 0px;
+   border-radius: 10px;
+   /* border: 1px solid black; */
+    height: 80%;
+    overflow: hidden;
+    box-shadow: 1px 1px 15px rgb(219, 218, 218);
+} 
+.seventhset .set1:hover{
+    height: 100%;
+    transition: 0.5s;
+}
+.seventhset .set1:hover .img{
+    opacity: 0.3;
+   
+}
+.seventhset .set1:hover .img img{
+    transform: scale(1.1);
+}
+.seventhset .set1:hover .items{
+    opacity: 0.3;
+}
+.seventhset .set1 .items a{
+    text-decoration: none;
+    color: rgb(12, 10, 10);
+    font-size: 21px;
+    font-family:sans-serif;
+}
+.seventhset .set1 .items p{
+    font-size: 25px;
+}
+.seventhset .set1 .items span{
+    text-decoration:line-through ;
+    font-weight: bold;
+    font-size: 15px;
+}
+.seventhset .set1 .items a:hover{
+    color: rgb(247, 191, 38);
+}
+.seventhset .set1 .man i{
+    color: rgb(247, 191, 38);
+    padding-left: 2px;
+    font-size: 14px;
+}
+.hov{
+    margin-top: 30px;
+   
+    
+}
+.hov button{
+    margin-left:7px ;
+    margin-right: 7px;
+    padding: 10px;
+    background-color: unset;
+    border: none;
+    border:  1px solid rgb(221, 220, 220);
+    color: rgb(46, 46, 45);
+    padding: 15px 13px 6.5px 13px ;
+}
+.hov button:hover{
+    background-color: rgb(80, 79, 79);
+    color: white;
+    border: none;
+    border-radius: 2px;
+     box-shadow: 1px 1px 16px rgb(151, 149, 149) ;
+     transition: 2.7s;
+}
+.offerimg img{
+    width: 100%;
+}
+.offerimg{
+    width: 80%;
+    margin: auto;
+    border: 3px solid rgb(243, 177, 115);
+    margin-bottom:100px ;
+    border-top-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    overflow: hidden;
+    box-shadow: 1px 20px 20px rgb(243, 177, 115);
+}
+.offerimg1 img{
+    width: 100%;
+}
+.offerimg1{
+    width: 100%;
+    margin: auto;
+    box-shadow: 1px 1px 20px rgb(100, 100, 100);
+    margin-bottom: 70px;
+}
+.eightset{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.eightset .sett{
+    background-color: black;
+    position: relative;
+}
+
+.eightset .sett img{
+ width: 100%;
+ opacity: 0.3;
+ 
+}
+.eightset .settt{
+    background-color: black;
+    position: relative;
+}
+ 
+ .eightset .settt img{
+    width: 100%;
+    opacity: 0.3;
+   }
